@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "This is the server side for the react web app with CRUD operation capabilities.",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "keywords": [],
+  "author": "Isaac Onyemaechi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  }
+}
